@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <style>
+            .padre {
+                border: 1px solid red;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                flex-direction: column;
+            }
+            .hijo {
+                width: 200px;
+                height: 200px;
+                background: green;
+                border: 1px solid blue;
+                margin: 20px;
+                display: flex;
+                /* align-items: center; */
+                justify-content: center;
+                flex-direction: column;
+            }
+        </style>
+    </head>
+    <body>
+            <div class="padre">
+                <div class="hijo">
+                    <p>hola</p>
+                    <button>submit</button>
+                </div>
+                <div class="hijo"></div>
+                <div class="hijo"></div>
+                <div class="hijo"></div>
+            </div>
+    </body>
+</html>
